@@ -9,6 +9,8 @@ package janio;
  *
  * @author Jan
  */
+
+//Salut Margaux
 public class Lapin {
     private String nom;
     private int ag;
