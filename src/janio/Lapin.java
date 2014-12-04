@@ -11,10 +11,10 @@ package janio;
  */
 public class Lapin {
     private String nom;
-    private int age;
+    private int ag;
     
     public Lapin(String nom, int age){
-        this.age = age;
+        this.ag = age;
         this.nom = nom;
     }
 
@@ -23,7 +23,7 @@ public class Lapin {
     }
 
     public int getAge() {
-        return age;
+        return ag;
     }
 
     public void setNom(String nom) {
@@ -31,7 +31,7 @@ public class Lapin {
     }
 
     public void setAge(int age) {
-        this.age = age;
+        this.ag = age;
     }
         
     public void crier() {
